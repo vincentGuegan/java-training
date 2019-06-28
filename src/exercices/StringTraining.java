@@ -100,7 +100,7 @@ public class StringTraining {
     public static String subString(String string, int begin, int end) {
         // https://howtodoinjava.com/java/string/java-string-substring-example/
 
-        return string.substring(1,4);
+        return string.substring(begin,end);
     }
 
     /**
@@ -138,7 +138,7 @@ public class StringTraining {
      */
     public static String replaceChar(String string, char search, char replace) {
 
-        return string = string.replace(search, replace);
+        return string.replace(search, replace);
     }
 
     /**
