@@ -149,7 +149,7 @@ public class StringTraining {
      */
     public static String replaceString(String string, String search, String replace) {
 
-        return string = string.replaceAll(search, replace);
+        return string.replaceAll(search, replace);
     }
 
     /**
